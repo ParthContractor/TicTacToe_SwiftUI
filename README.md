@@ -51,4 +51,8 @@ A modern SwiftUI implementation of Tic-Tac-Toe with a clean separation between *
   <img src="./SequenceDiagram.png" alt="Sequence diagram" width="760">
 </p>
 
+## High Level Architecture
 
+  <p align="center">
+  <img src="./HLD.png" alt="Sequence diagram" width="760">
+</p>
