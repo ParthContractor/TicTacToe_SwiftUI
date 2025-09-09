@@ -16,6 +16,7 @@
 		04151B8C2E6FBBFB00066185 /* TooDenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04151B8B2E6FBBFB00066185 /* TooDenseView.swift */; };
 		04151B8E2E6FBC2900066185 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04151B8D2E6FBC2900066185 /* GameViewModel.swift */; };
 		04151B922E6FCBEC00066185 /* GameCore in Frameworks */ = {isa = PBXBuildFile; productRef = 04151B912E6FCBEC00066185 /* GameCore */; };
+		04151B942E6FD26D00066185 /* ResultControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04151B932E6FD26D00066185 /* ResultControls.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		04151B892E6FBBC600066185 /* StatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBar.swift; sourceTree = "<group>"; };
 		04151B8B2E6FBBFB00066185 /* TooDenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooDenseView.swift; sourceTree = "<group>"; };
 		04151B8D2E6FBC2900066185 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		04151B932E6FD26D00066185 /* ResultControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultControls.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -145,6 +147,7 @@
 		04151B802E6FB45500066185 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				04151B932E6FD26D00066185 /* ResultControls.swift */,
 				04151B582E6FB40400066185 /* ContentView.swift */,
 				04151B832E6FBB5200066185 /* NInputHeader.swift */,
 				04151B852E6FBB7B00066185 /* BoardArea.swift */,
@@ -330,6 +333,7 @@
 				04151B572E6FB40400066185 /* TicTacToe_SwiftUIApp.swift in Sources */,
 				04151B8C2E6FBBFB00066185 /* TooDenseView.swift in Sources */,
 				04151B8E2E6FBC2900066185 /* GameViewModel.swift in Sources */,
+				04151B942E6FD26D00066185 /* ResultControls.swift in Sources */,
 				04151B8A2E6FBBC600066185 /* StatusBar.swift in Sources */,
 				04151B842E6FBB5200066185 /* NInputHeader.swift in Sources */,
 				04151B862E6FBB7B00066185 /* BoardArea.swift in Sources */,
