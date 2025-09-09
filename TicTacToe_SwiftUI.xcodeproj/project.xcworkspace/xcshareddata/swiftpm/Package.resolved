@@ -1,0 +1,15 @@
+{
+  "originHash" : "526e972e10d7732211061ee2657bc2c01309e5eb6cd1db84fed92218ebf5d2ed",
+  "pins" : [
+    {
+      "identity" : "gamecore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ParthContractor/GameCore",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ea30596b60f0c4b30f272551381555e39b2a1e4f"
+      }
+    }
+  ],
+  "version" : 3
+}

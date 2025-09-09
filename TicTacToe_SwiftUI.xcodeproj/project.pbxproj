@@ -270,6 +270,9 @@
 			);
 			mainGroup = 04151B4A2E6FB40400066185;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				04151B8F2E6FC35000066185 /* XCRemoteSwiftPackageReference "GameCore" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 04151B542E6FB40400066185 /* Products */;
 			projectDirPath = "";
@@ -633,6 +636,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04151B8F2E6FC35000066185 /* XCRemoteSwiftPackageReference "GameCore" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ParthContractor/GameCore";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 04151B4B2E6FB40400066185 /* Project object */;
 }
