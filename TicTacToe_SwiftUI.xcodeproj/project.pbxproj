@@ -15,6 +15,7 @@
 		04151B8A2E6FBBC600066185 /* StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04151B892E6FBBC600066185 /* StatusBar.swift */; };
 		04151B8C2E6FBBFB00066185 /* TooDenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04151B8B2E6FBBFB00066185 /* TooDenseView.swift */; };
 		04151B8E2E6FBC2900066185 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04151B8D2E6FBC2900066185 /* GameViewModel.swift */; };
+		04151B922E6FCBEC00066185 /* GameCore in Frameworks */ = {isa = PBXBuildFile; productRef = 04151B912E6FCBEC00066185 /* GameCore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04151B922E6FCBEC00066185 /* GameCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +100,7 @@
 				04151B552E6FB40400066185 /* TicTacToe_SwiftUI */,
 				04151B632E6FB40500066185 /* TicTacToe_SwiftUITests */,
 				04151B6D2E6FB40500066185 /* TicTacToe_SwiftUIUITests */,
+				04151B902E6FCBEC00066185 /* Frameworks */,
 				04151B542E6FB40400066185 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -167,6 +170,13 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		04151B902E6FCBEC00066185 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,6 +197,7 @@
 			);
 			name = TicTacToe_SwiftUI;
 			packageProductDependencies = (
+				04151B912E6FCBEC00066185 /* GameCore */,
 			);
 			productName = TicTacToe_SwiftUI;
 			productReference = 04151B532E6FB40400066185 /* TicTacToe_SwiftUI.app */;
@@ -647,6 +658,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04151B912E6FCBEC00066185 /* GameCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04151B8F2E6FC35000066185 /* XCRemoteSwiftPackageReference "GameCore" */;
+			productName = GameCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 04151B4B2E6FB40400066185 /* Project object */;
 }

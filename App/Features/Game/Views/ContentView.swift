@@ -6,14 +6,21 @@
 //
 
 import SwiftUI
+import Observation
 
 struct ContentView: View {
-    var body: some View {
-        VStack(spacing: 16) {
-            NInputHeader(title: "TicTacToe_SwiftUI")
-            BoardArea()
-            StatusBar(text: "Ready")
-        }
-        .padding()
+  @Bindable var vm: GameViewModel
+  init(vm: GameViewModel) { self.vm = vm }
+
+  var body: some View {
+    VStack(spacing: 12) {
+      NInputHeader(vm: vm)
+      GeometryReader { geo in
+        BoardArea(vm: vm, canvasSize: geo.size)
+      }
+      StatusBar(text: vm.statusText)
     }
+    .padding()
+  }
 }
+
