@@ -47,19 +47,8 @@ A modern SwiftUI implementation of Tic-Tac-Toe with a clean separation between *
 
 ## sequenceDiagram
 
-  sequenceDiagram
-  actor User
-  participant View
-  participant ViewModel
-  participant Rules as GameRules
-  participant Core as WinnerDetector/Board
+  <p align="center">
+  <img src="./SequenceDiagram.png" alt="Sequence diagram" width="760">
+</p>
 
-  User->>View: Tap cell i
-  View->>ViewModel: intent: cellTapped(i)
-  ViewModel->>Rules: apply(move, board, current)
-  Rules->>Core: check winner/draw
-  Core-->>Rules: result
-  Rules-->>ViewModel: new board + status
-  ViewModel-->>View: publish ViewState
-  View-->>User: UI re-renders
 
