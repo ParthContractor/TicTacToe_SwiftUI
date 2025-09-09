@@ -44,3 +44,22 @@ A modern SwiftUI implementation of Tic-Tac-Toe with a clean separation between *
 - Add/extend features via protocols and small types.
 - Prefer pure functions for rule checks and game state transitions.
 - Write/extend tests for every rule or bug fix.
+
+## sequenceDiagram
+
+  sequenceDiagram
+  actor User
+  participant View
+  participant ViewModel
+  participant Rules as GameRules
+  participant Core as WinnerDetector/Board
+
+  User->>View: Tap cell i
+  View->>ViewModel: intent: cellTapped(i)
+  ViewModel->>Rules: apply(move, board, current)
+  Rules->>Core: check winner/draw
+  Core-->>Rules: result
+  Rules-->>ViewModel: new board + status
+  ViewModel-->>View: publish ViewState
+  View-->>User: UI re-renders
+
